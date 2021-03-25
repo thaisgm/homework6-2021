@@ -16,12 +16,14 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 /*Requirement 3*/
 .nav_links{
   /*Your code here again.*/
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -104,19 +106,21 @@ header{
 
   /*Requirement 10*/
   header{
-    /*Your code here again.*/  
+    /*Your code here again.  */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  
   }
 
   /*Requirement 10*/
   .nav_links{
-    /*Your code here again.*/  
+    /*Your code here again.*/ 
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
+     
   }
 
   /*Requirement 11*/
